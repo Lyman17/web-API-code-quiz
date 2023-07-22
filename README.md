@@ -10,4 +10,7 @@
 
 ## Credits
 
+Link used to guide structure of the proper ReadMe format:
+https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
+
 ## MIT License
