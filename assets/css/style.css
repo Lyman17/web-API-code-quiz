@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Merienda';font-size: 22px;
-    background-color: white;
+    background-color: grey;
 }
 
 header {
@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     list-style: none;
-    color: blueviolet;
+    color: firebrick;
     height: 60px;
     font-size: 2vw;
     padding-top: 10px;
@@ -22,3 +22,29 @@ header {
     padding-right: 10px;
     font-family: 'Merienda';font-size: 22px;
   }
+  .btnHeader {
+    border-radius: 10px;
+    background-color: white;
+    text-decoration: none;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    color: lightseagreen;
+    font-family: 'Merienda';font-size: 20px;
+}
+
+.btnHeader:hover {
+
+    background-color: blue;
+    
+  
+    
+}
+
+.btn {
+    border-radius: 12px;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: powderblue;
+    color: white;
+    font-family: 'Merienda';font-size: 10px;
+}
