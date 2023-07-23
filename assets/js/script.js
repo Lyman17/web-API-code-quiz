@@ -15,3 +15,4 @@ var htmlTimeLeft = document.getElementById('timeLeft'); // Display counter @ the
 var finalScoreDisplayEl = document.createElement("finalScoreDisplay"); // Display Question
 var submitScoreEl = document.getElementById('submitScore'); // Start Quiz button Btn El
 var mainDivEl = document.getElementById('mainDiv'); // Main div container for all elements except for header elements
+var answer1BtnEl = document.getElementById('answer1'); // Start Quiz button Btn El

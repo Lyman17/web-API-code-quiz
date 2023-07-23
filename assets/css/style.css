@@ -122,8 +122,52 @@ header {
     border-radius: 10%;
     border: 0;
     outline: 0; /* Remove border around button */
-    background-color: blue;
+    background-color: lightblue;
     place-self: center;
-    color: white;
+    color: black;
     font-family: 'Merienda';font-size: 15px;
+}
+
+#answer1 {
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 1;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10%;
+    border: 0;
+    outline: 0; /* Remove border around button */
+    background-color: lightblue;
+    color: black;
+    font-family: 'Merienda';font-size: 15px;
+    margin-left: 25px;
+}
+
+#answer1:hover{
+    
+    background-color: blue;
+     
+}
+
+#answerCorrectWrongGrid {
+    /*width:65%; /* Contain the grid to a maximum of 80% of the flex wrapper */
+    display: grid;
+    grid-template-columns: 4fr;  /* Create a 4X4 grid of same size*/
+    grid-template-rows: repeat(2, 1fr); /* 4 rows of equal size */
+    gap: 10px 10px; /* Gap on x and y grid */
+    font-family: 'Merienda';font-size: 22px;
+
+}
+
+#answerCorrectWrong {
+    text-align: left;
+    grid-column: 1 / span 4;
+    grid-row: 1 / span 2;
+    
+}
+
+#questionDisplay {
+    font-size: 25px;
+}
+
+#answer1 {
+    grid-column: 2 / span 2;
 }
