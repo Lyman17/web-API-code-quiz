@@ -13,10 +13,10 @@ This code was created fully inside a timer, which is not necessary the best opti
 ### Open your favorite web browser and enter the following web address to access.
 
 ```html
-https://Blyman17.github.io/web-api-code-quiz/
+https://lyman17.github.io/web-API-code-quiz/
 ```
 
-<!-- insert screenshot here -->
+![Alt text](<Screenshot web-API-quiz.png>)
 
 ## 3. Usage Tips
 
