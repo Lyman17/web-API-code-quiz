@@ -67,3 +67,38 @@ header {
      gap: 10px 10px; /* Gap on x and y grid */
      font-family: 'Merienda';font-size: 22px;
  }
+
+ #questionDisplay {
+    text-align: center;
+    align-self: baseline;
+    grid-column: 2 / span 2;
+    grid-row: 1 / span 5;
+    place-self: center;
+    font-size: 30px;
+}
+
+#finalScoreDisplay {
+    
+    grid-column: 1 / span 2;
+    grid-row: 6 / span 1;
+    font-size: 15px;
+}
+
+
+
+#enterInitials {
+    
+    grid-column: 1 / span 1;
+    grid-row: 7 / span 1;
+    font-size: 15px;
+}
+
+
+#enterInitialsTextArea {
+    
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 1;
+    font-size: 15px;
+    resize: none;
+    
+}

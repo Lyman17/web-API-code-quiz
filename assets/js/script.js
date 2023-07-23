@@ -5,6 +5,9 @@ var score = 0; // Max value by decreasing each wrong answer
 var highScore = 50; // Score add fix for ticking timer.
 var finalAnswerCheck = 0 // If last answer was wrong it will be validated outside of the time interval and then display as enabled = 1 
 var checkTimes = 1 // Check timer times call for function on last question
-
+var viewHighScoresBtnEl = document.getElementById('view-high-scores'); // View High Scores Btn El
+var startQuizBtnEl = document.getElementById('start-quiz'); // Start Quiz button Btn El
 var button1234 = document.createElement("button"); // Test answer 1
 var timeLeft = 60; // Global time left assignment counter
+var enterInitialsEl = document.createElement("enterInitials"); // Enter initials
+var enterInitialsTextAreaEl = document.createElement("enterInitialsTextArea"); // TextArea
