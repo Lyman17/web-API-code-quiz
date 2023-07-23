@@ -16,3 +16,6 @@ var finalScoreDisplayEl = document.createElement("finalScoreDisplay"); // Displa
 var submitScoreEl = document.getElementById('submitScore'); // Start Quiz button Btn El
 var mainDivEl = document.getElementById('mainDiv'); // Main div container for all elements except for header elements
 var answer1BtnEl = document.getElementById('answer1'); // Start Quiz button Btn El
+var answer2BtnEl = document.getElementById('answer2'); // Start Quiz button Btn El
+var answer3BtnEl = document.getElementById('answer3'); // Start Quiz button Btn El
+var answer4BtnEl = document.getElementById('answer4'); // Start Quiz button Btn El
