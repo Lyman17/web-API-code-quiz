@@ -197,8 +197,18 @@ submitScoreEl.addEventListener("click", function() { // Submit high scores
     
     startQuizBtnEl.addEventListener("click", function() {
     
+//debugger;
+startQuizBtnEl.style.display = 'none';
+questionDisplay.style.display='none';
+finalScoreDisplay.style.display = 'none';
+enterInitials.style.display='none';
+score = 0; // Score is 0 again.
+timeLeft=60;
+htmlTimeLeft.textContent = timeLeft; //Counter to display once more to make look smoother.
+finalAnswerCheck = 0; // Check if last question and wrong.
+checkTimes = 1; // Check timer for funciton patch.
 
-        // debugger here
+//debugger;
 
         var timeInterval = setInterval(function() {
 
