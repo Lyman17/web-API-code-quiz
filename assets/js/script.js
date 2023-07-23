@@ -11,3 +11,7 @@ var button1234 = document.createElement("button"); // Test answer 1
 var timeLeft = 60; // Global time left assignment counter
 var enterInitialsEl = document.createElement("enterInitials"); // Enter initials
 var enterInitialsTextAreaEl = document.createElement("enterInitialsTextArea"); // TextArea
+var htmlTimeLeft = document.getElementById('timeLeft'); // Display counter @ the html level.
+var finalScoreDisplayEl = document.createElement("finalScoreDisplay"); // Display Question
+var submitScoreEl = document.getElementById('submitScore'); // Start Quiz button Btn El
+var mainDivEl = document.getElementById('mainDiv'); // Main div container for all elements except for header elements
