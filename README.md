@@ -23,7 +23,7 @@ https://Blyman17.github.io/web-api-code-quiz/
 
 ### Follow the criteria instructions to finish the quiz
 
-Steps to navidate the quiz.
+### Steps to navidate the quiz:
 
 
 ### Click Start Quiz
@@ -51,13 +51,28 @@ Steps to navidate the quiz.
 
 ## How to Install & Run the Project
 
-No installation nor login required
+#### No installation nor login required
 
 ## Credits
+
+
+Link to timer set interval study site:
+https://www.tutorialspoint.com/how-to-set-a-countdown-timer-in-javascript#:~:text=We%20can%20set%20a%20countdown,at%20described%20intervals%20in%20milliseconds.
+
+How to set up js quiz tutorial:
+https://simplestepscode.com/javascript-quiz-tutorial/
+
+Assistance courtesy of Esteban Romero - Full Stack Developer
+
+ChatGPT - chat sessions:
+https://chat.openai.com/
 
 Link used to guide structure of the proper ReadMe format:
 https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
 
-## MIT License
 
-Free & fair use allowed, please feel free to copy or use any of this code as needed.
+## License
+
+### MIT
+
+### Free use allowed, copy or use any of this code if needed.
